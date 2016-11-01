@@ -1,3 +1,6 @@
+#!/usr/bin/env python2
+# coding: utf-8
+
 from bookmanager import BookManager
 
 bm=BookManager()
@@ -80,7 +83,7 @@ print the_person
 
 
 # TEST 6: Find person by email address (can supply either the exact string or a prefix string, ie. both "alexander@company.com" and "alex" should work).
-print("### TEST 6 : get person who has email alexander@company.com or only the prefix alex ###")
+print("### TEST 6 : get person who have email alexander@company.com or only the prefix alex ###")
 
 # create email
 my_email = bm.createEmail('alexander@company.com')
