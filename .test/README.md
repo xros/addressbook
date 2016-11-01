@@ -1,7 +1,7 @@
 What I have tried
 ==================
 
-This isn't a part of module `bookmanager` but a test field recording codes and notes before production.
+This isn't a part of module `bookmanager` but a test field for development, recording codes and notes before production.
 
 What is an address book?
 ------------------------
