@@ -1,4 +1,4 @@
-What I have tried
+Notes and test codes
 ==================
 
 This isn't a part of module `bookmanager` but a test field for development, recording codes and notes before production.
@@ -6,7 +6,7 @@ This isn't a part of module `bookmanager` but a test field for development, reco
 What is an address book?
 ------------------------
 
-It should be a model which looks like that one intance can point to many intances for a many to many relationship.
+It should be a model which looks like that one instance can point to many intances for a many to many relationship.
 
 I tried to write pure models in Python only with some class(es), list, matrix or so. But I found the relationship part is not so handy and efficent. Mostly I am inventing wheels... 
 
