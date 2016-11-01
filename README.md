@@ -33,6 +33,26 @@ for m in members:
     print(m.first_name)
 ```
 
+##### What can it do?
+
+Example of Facts:
+
+- A person has a first name and a last name.
+- A person has one or more street addresses.
+- A person has one or more email addresses.
+- A person has one or more phone numbers.
+- A person can be a member of one or more groups.
+- An address book is a collection of persons and groups.
+
+Example of Required features:
+
+- Add a person to the address book.
+- Add a group to the address book.
+- Given a group we want to easily find its members.
+- Given a person we want to easily find the groups the person belongs to.
+- Find person by name (can supply either first name, last name, or both).
+- Find person by email address (can supply either the exact string or a prefix string, ie. both "alexander@company.com" and "alex" should work).
+
 
 ### API structure
 ```
