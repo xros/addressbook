@@ -63,4 +63,4 @@ class BookManager(__builtin__.object)
 python run_test.py
 ```
 
-![image test](static/snapshot/355.png)
+![image test](https://github.com/xros/addressbook/blob/master/static/snapshot355.png?raw=true)
