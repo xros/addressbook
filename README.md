@@ -74,11 +74,6 @@ class BookManager(__builtin__.object)
  
  For example,
 
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
-
 
 | Functionality | Method | Input Parameters | returned type | 
 | ------------ | ---- | ---------------- | ------------|
