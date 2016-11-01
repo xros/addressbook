@@ -101,3 +101,5 @@ assert p in those_who_have_this_email_prefix
 # print bm.getPersonByEmail('nobody@nobody.com')
 
 print("Passed")
+
+print(those_who_have_this_email_prefix)

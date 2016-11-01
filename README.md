@@ -13,7 +13,7 @@ pip install -r requirments.txt
 ```
 
 ### Coding example
-```
+```python
 from bookmanager import BookManager
 
 bm = BookManager()
@@ -65,6 +65,10 @@ class BookManager(__builtin__.object)
  |  getPersonByName(self, name)
  |      # Return a list of person instances filtered by name
  ```
+
+ This module is built on SQLAlchemy, and it will return native SQLAlchemy instances.
+ 
+ For example,
 
 ### Run the test script
 
