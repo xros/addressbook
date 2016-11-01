@@ -100,3 +100,7 @@ python run_test.py
 ```
 
 ![image test](https://github.com/xros/addressbook/blob/master/static/snapshot355.png?raw=true)
+
+### Learn why it is in this way
+
+[See .test](https://github.com/xros/addressbook/tree/master/.test)
