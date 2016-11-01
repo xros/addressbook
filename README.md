@@ -35,7 +35,7 @@ for m in members:
 
 ##### What can it do?
 
-Example of Facts:
+Example of facts:
 
 - A person has a first name and a last name.
 - A person has one or more street addresses.
@@ -44,7 +44,7 @@ Example of Facts:
 - A person can be a member of one or more groups.
 - An address book is a collection of persons and groups.
 
-Example of Required features:
+Example of required features:
 
 - Add a person to the address book.
 - Add a group to the address book.
@@ -93,7 +93,7 @@ class BookManager(__builtin__.object)
  This module is built on top of SQLAlchemy and sqlite3, running in RAM, and it will return native SQLAlchemy instances. 
 
  
- For example,
+#### API table
 
 
 | Functionality | Method | Input Parameters | returned type | 
