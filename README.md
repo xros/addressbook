@@ -71,13 +71,13 @@ class BookManager(__builtin__.object)
  For example,
 
 
- | Funtionality | Method | Input Parameters | returned type | 
- | ---------- | :----: | :--------------: | ------------:|
+ | Functionality | Method | Input Parameters | returned type | 
+ | ------------ | :----: | :----------------: | ------------:|
  | Create a person object | createPerson() | [string] first_name, [string] last_name | A SQLAlchemy model instance |
- | Create a group object | createGroup() | [string] name |A SQLAlchemy model instance |
- | Create a email object | createEmail() | [string] name |A SQLAlchemy model instance |
- | Create a street object | createStreet() | [string] name |A SQLAlchemy model instance |
- | Create a phone object | createPhone() | [string] name |A SQLAlchemy model instance |
+ | Create a group object | createGroup() | [string] name | A SQLAlchemy model instance |
+ | Create a email object | createEmail() | [string] name | A SQLAlchemy model instance |
+ | Create a street object | createStreet() | [string] name | A SQLAlchemy model instance |
+ | Create a phone object | createPhone() | [string] name | A SQLAlchemy model instance |
  | Add an Email address to a person | addEmailToPerson() | [sqla model instance] person, [sqla model instance] email | boolean |
  | Add an group to a person | addGroupToPerson() | [sqla model instance] person, [sqla model instance] group | boolean |
  | Get all members from a group | getGroupMembers() | [string] group | A list of SQLAlchemy model instances |
