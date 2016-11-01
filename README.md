@@ -70,7 +70,8 @@ class BookManager(__builtin__.object)
  |      # Return a list of person instances filtered by name
  ```
 
- This module is built on SQLAlchemy, and it will return native SQLAlchemy instances. 
+ This module is built on top of SQLAlchemy and sqlite3, running in RAM, and it will return native SQLAlchemy instances. 
+
  
  For example,
 
