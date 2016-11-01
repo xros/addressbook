@@ -70,8 +70,9 @@ class BookManager(__builtin__.object)
  
  For example,
 
+
  | Funtionality | Method | Input Parameters | returned type | 
- | ----------: | :----: | :--------------: | ------------:|
+ | ---------- | :----: | :--------------: | ------------:|
  | Create a person object | createPerson() | [string] first_name, [string] last_name | A SQLAlchemy model instance |
  | Create a group object | createGroup() | [string] name |A SQLAlchemy model instance |
  | Create a email object | createEmail() | [string] name |A SQLAlchemy model instance |
