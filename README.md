@@ -12,11 +12,20 @@ Prepare for the environment
 pip install -r requirments.txt
 ```
 
-### Coding 
+### Coding example
 ```
 from bookmanager import BookManager
 
 bm = BookManager()
+someone = bm.createPerson('Richard', 'Stallman')
+gnu_group = bm.createGroup('GNU')
+
+flag=bm.addGroupToPerson(someone, gnu_group)
+
+if flag:
+    print("Welcome to GNU group!!!")
+else:
+    print("Sad and pitty...")
 
 ```
 
