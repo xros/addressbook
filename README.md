@@ -56,3 +56,11 @@ class BookManager(__builtin__.object)
  |  getPersonByName(self, name)
  |      # Return a list of person instances filtered by name
  ```
+
+### Run the test script
+
+```
+python run_test.py
+```
+
+![image test](static/snapshot/355.png)
