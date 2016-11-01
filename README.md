@@ -7,7 +7,7 @@ It is designed to be extensive
 
 
 ### Usage
-Prepare for the environment
+Preparation for the environment
 ```
 pip install -r requirments.txt
 ```
@@ -27,6 +27,10 @@ if flag:
 else:
     print("Sad and pitty...")
 
+members = bm.getGroupMembers("GNU")
+
+for m in members:
+    print(m.first_name)
 ```
 
 
