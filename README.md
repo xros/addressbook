@@ -17,7 +17,7 @@ pip install -r requirments.txt
 from bookmanager import BookManager
 
 bm = BookManager()
-someone = bm.createPerson('Richard', 'Stallman')
+someone = bm.createPerson(first_name='Richard', last_name='Stallman')
 gnu_group = bm.createGroup('GNU')
 
 flag=bm.addGroupToPerson(someone, gnu_group)
