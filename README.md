@@ -1,9 +1,14 @@
 Address Book
 =============
+By [Alexander Liu](https://github.com/xros)
 
 This is an address book module written in Python.
 
-It is designed to be extensive
+It is designed to be extensive as a module. Runs in RAM, very efficent. 
+
+**Core concept** --> Many to Many Database Relationship.
+
+Objectives: To solve real-world people in different groups or books on different shelfs and such.
 
 
 ### Usage
