@@ -77,7 +77,7 @@ print("### TEST 5 : find person by name 'Alex' ###")
 the_person = bm.getPersonByName('Alex Long')
 assert p == the_person[0]
 print("Passed")
-print the_person
+print(the_person)
 
 
 

@@ -49,3 +49,6 @@ coverage.xml
 *.pot
 # Sphinx documentation
 docs/_build/
+
+# env 36
+env_36/

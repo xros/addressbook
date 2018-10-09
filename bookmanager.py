@@ -63,7 +63,7 @@ class BookManager(object):
             person_group = PersonGroup(person=person, group=group)
             self.session.add(person_group)
             self.session.commit()
-        except Exception, e:
+        except Exception as e:
             return False
         return True
 
@@ -77,7 +77,7 @@ class BookManager(object):
             self.session.add(person_email)
 
             self.session.commit()
-        except Exception, e:
+        except Exception as e:
             return False
         return True
 
